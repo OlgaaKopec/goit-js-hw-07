@@ -1,6 +1,8 @@
+"use strict"
 import { galleryItems } from './gallery-items.js';
 // Change code below this line
-const galleryList = document.querySelector(".gallery");
+const gallery = document.querySelector(".gallery");
+
 function createGalleryItem(item) {
     const galleryItem = document.createElement('li');
     galleryItem.classList.add('gallery__item')
